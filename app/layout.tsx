@@ -3,16 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import React from "react";
 import { ThemeProvider } from "../components/theme-provider";
-import { Button } from "../components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "../components/ui/dropdown-menu";
-import { Moon, Sun } from "lucide-react";
-import { useTheme } from "next-themes";
-import ModeToggle from "../components/ModeToggle";
 
 const inter = Inter({ subsets: ["latin"] });
 
