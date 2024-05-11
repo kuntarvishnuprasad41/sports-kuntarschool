@@ -12,6 +12,7 @@ import {
 } from "../components/ui/dropdown-menu";
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
+import ModeToggle from "../components/ModeToggle";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,11 +33,11 @@ export default function RootLayout({
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
-          enableSystemg
+          enableSystem
           disableTransitionOnChange
         >
           {children}
-          {children}
+          {/* {children} */}
         </ThemeProvider>
       </body>
     </html>
