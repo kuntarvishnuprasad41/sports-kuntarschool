@@ -71,7 +71,10 @@ export default function SportsNavigationMenu() {
                   >
                     {/* <Icons.logo className="h-6 w-6" />
                      */}
-                    <img src="/vercel.svg" alt="" />
+                    <img
+                      src="https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image-300x300.png"
+                      alt=""
+                    />
                     <div className="mb-2 mt-4 text-lg font-medium">
                       shadcn/ui
                     </div>
